@@ -323,6 +323,13 @@ hr.light-100 {
   will-change: transform;
 }
 
+/* 优化手机端图片显示 */
+@media (max-width: 768px) {
+  .carousel-img {
+    object-position: center top;
+  }
+}
+
 .carousel-item.active .carousel-img {
   transform: scale(1);
 }
